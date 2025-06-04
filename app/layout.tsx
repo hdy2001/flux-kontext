@@ -35,7 +35,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {/* Google tag (gtag.js) - Replace with your actual GA4 measurement ID */}
         <Script
           strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-VFN1TC7Y7D"
+          src="https://www.googletagmanager.com/gtag/js?id=G-S0PC5E7KPF"
         />
         <Script
           id="google-analytics"
@@ -46,7 +46,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
 
-              gtag('config', 'G-VFN1TC7Y7D');
+              gtag('config', 'G-S0PC5E7KPF');
             `,
           }}
         />
