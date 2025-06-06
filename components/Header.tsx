@@ -13,6 +13,14 @@ const links: {
   href: string;
   label: string;
 }[] = [
+  {
+    href: '/#image-generator',
+    label: '图像生成器',
+  },
+  {
+    href: '/signin',
+    label: '登录/注册',
+  },
   // {
   //   href: "/#pricing",
   //   label: "Pricing",
@@ -106,7 +114,7 @@ const Header = () => {
           ))}
           📮  hdy2001@poppaws.ai
         </div>
-        
+
         {/* CTA on large screens */}
         <div className="hidden lg:flex lg:justify-end lg:flex-1">{cta}</div>
       </nav>

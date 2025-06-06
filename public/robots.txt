@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kontextflux.ai
+
+# Sitemaps
+Sitemap: https://kontextflux.ai/sitemap.xml
