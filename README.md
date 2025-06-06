@@ -48,7 +48,7 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 ### 安装依赖
 
 ```bash
-npm install
+pnpm install
 ```
 
 ### 数据库设置
@@ -69,7 +69,7 @@ npm install
 ### 启动开发服务器
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ## 项目结构
